@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.btn-iconAdd {
+  background: url("../image/add-white.svg") no-repeat center/contain;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.header-logo {
+  display: inline-block;
+}
+.header-logo img {
+  width: 220px;
+  height: 70px;
+  object-fit: contain;
+}
+.header-user-welcome {
+  display: flex;
+  align-items: center;
+}
+.header-user-btn:not(:last-child) {
+  margin-right: 10px;
+}
+.header-user-name {
+  margin: 0 10px 0 0;
+}
+.header-nav {
+  background-color: #025aac;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.header-menu-item {
+  list-style: none;
+  padding: 10px 0;
+}
+.header-menu-item:not(:last-child) {
+  border-right: 1px solid #20466d;
+}
+.header-menu-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  padding: 0 10px;
+}
+.header-menu-link::before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  transition: all 0.25s linear;
+}
+.header-menu-link:hover {
+  color: white;
+}
+.header-menu-link:hover::before {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
