@@ -62,7 +62,7 @@ body {
 }
 .header-menu-link {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   position: relative;
   padding: 0 10px;
@@ -82,6 +82,114 @@ body {
 }
 .header-menu-link:hover::before {
   width: 100%;
+}
+
+.filter {
+  margin-top: 10px;
+}
+.filter-body {
+  background-color: #febb02;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+.filter-item {
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+}
+.filter-item:not(:last-child) {
+  margin-right: 15px;
+}
+.filter-type, .filter-location, .filter-price, .filter-acreage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-type-name {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px 10px 12px;
+}
+.filter-type-name::before {
+  content: "";
+  display: block;
+  background: url("../image/building-icon.svg") no-repeat center/cover;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  pointer-events: none;
+}
+.filter-localtion-name {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px 10px 12px;
+}
+.filter-localtion-name::before {
+  content: "";
+  display: block;
+  background: url("../image/location-icon.svg") no-repeat center/cover;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  pointer-events: none;
+}
+.filter-price-name {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px 10px 12px;
+}
+.filter-price-name::before {
+  content: "";
+  display: block;
+  background: url("../image/price-icon.svg") no-repeat center/cover;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  pointer-events: none;
+}
+.filter-acreage-name {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px 10px 12px;
+}
+.filter-acreage-name::before {
+  content: "";
+  display: block;
+  background: url("../image/acreage-icon.svg") no-repeat center/cover;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  pointer-events: none;
+}
+.filter-icon-delete, .filter-icon-arrowRight {
+  width: 12px;
+  height: 12px;
+  display: block;
+  margin-right: 10px;
+}
+.filter-icon-delete {
+  background: url("../image/delete-filter-item.svg") no-repeat center/cover;
+}
+.filter-icon-arrowRight {
+  background: url("../image/delete-filter-item.svg") no-repeat center/cover;
+}
+.filter-submit {
+  background-color: #0d6efd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-submit::before {
+  content: "";
+  background: url("../image/search-white-icon.svg") no-repeat center/cover;
+  width: 15px;
+  height: 15px;
+  display: block;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
