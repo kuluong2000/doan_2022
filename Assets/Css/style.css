@@ -192,4 +192,71 @@ body {
   margin-right: 10px;
 }
 
+.page-header {
+  margin-top: 20px;
+}
+.page-header-title {
+  font-size: 28px;
+}
+
+.location-destrict {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #dedede;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.location-destrict-item {
+  width: 170px;
+  text-align: left;
+  line-height: 1.6;
+  list-style-type: none;
+}
+.location-destrict-link {
+  text-decoration: none;
+}
+.location-destrict-link span {
+  font-size: 12px;
+  color: #999;
+}
+.location-destrict-link:hover {
+  color: orange;
+}
+
+.footer-top {
+  border-bottom: 1px solid #ddd;
+}
+.footer-top-list {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+.footer-top-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.footer-top-item:not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid #ddd;
+}
+.footer-top-item span {
+  background: url("../image/down-arrow.svg") center no-repeat;
+  width: 40px;
+  height: 28px;
+  background-size: 12px 12px;
+  display: inline-block;
+  cursor: pointer;
+}
+.footer-top-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 7px 0;
+}
+.footer-top-link:hover {
+  color: orangered;
+}
+
 /*# sourceMappingURL=style.css.map */

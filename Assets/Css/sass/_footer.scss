@@ -1,0 +1,36 @@
+.footer {
+    &-top {
+        border-bottom: 1px solid #ddd;
+        &-list {
+            display: flex;
+            padding: 0;
+            justify-content: space-between;
+        }
+        &-item {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            &:not(:last-child) {
+                padding-right: 10px;
+                border-right: 1px solid #ddd;
+            }
+            span {
+                background: url("../image/down-arrow.svg") center no-repeat;
+                width: 40px;
+                height: 28px;
+                background-size: 12px 12px;
+                display: inline-block;
+                cursor: pointer;
+            }
+        }
+        &-link {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 7px 0;
+            &:hover {
+                color: orangered;
+            }
+        }
+    }
+}
