@@ -258,5 +258,120 @@ body {
 .footer-top-link:hover {
   color: orangered;
 }
+.footer-main {
+  display: flex;
+  margin-top: 20px;
+}
+.footer-main-logo img {
+  width: 220px;
+  height: 70px;
+  object-fit: contain;
+}
+.footer-main-desc {
+  line-height: 1.3;
+}
+.footer-main-col:not(:first-child) {
+  margin-left: 15px;
+}
+.footer-main-col-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: block;
+}
+.footer-main-col-menu {
+  padding: 0;
+}
+.footer-main-col-item {
+  list-style-type: none;
+}
+.footer-main-col-link {
+  text-decoration: none;
+  margin: 5px 0;
+  display: block;
+  padding: 5px 0;
+  color: #333;
+}
+.footer-main-col-link:hover {
+  color: orangered;
+}
+.footer-main-col-social {
+  margin: 10px 0;
+}
+.footer-main-col-social > a > i {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+}
+.footer-main-col-facebook, .footer-main-col-youtube, .footer-main-col-zalo, .footer-main-col-viber, .footer-main-col-twitter {
+  display: inline-block;
+}
+.footer-main-col-facebook i {
+  background: url("../image/icon_facebook.svg") center no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.footer-main-col-youtube i {
+  background: url("../image/icon_youtube.svg") center no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.footer-main-col-zalo i {
+  background: url("../image/icon_zalo.svg") center no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.footer-main-col-viber i {
+  background: url("../image/icon_viber.svg") center no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.footer-main-col-twitter i {
+  background: url("../image/icon_twitter.svg") center no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.footer-main-col-payment span {
+  background-image: url(../image/method-payment-icon.jpg);
+  display: inline-block;
+  background-size: 324px 33px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.footer-main-col-payVisa {
+  background-position: -108px 0;
+  width: 54px;
+  height: 33px;
+}
+.footer-main-col-payMaster {
+  background-position: -162px 0;
+  width: 54px;
+  height: 33px;
+}
+.footer-main-col-payJcb {
+  background-position: -54px 0;
+  width: 54px;
+  height: 33px;
+}
+.footer-main-col-payBanking {
+  background-position: -216px 0;
+  width: 54px;
+  height: 33px;
+}
+.footer-main-col-payMomo {
+  background-position: -270px 0;
+  width: 54px;
+  height: 33px;
+}
+.footer-main-col-payVnd {
+  background-position: 0 0;
+  width: 54px;
+  height: 33px;
+}
+.footer-main-col:not(:first-child) {
+  width: 22%;
+}
+.footer-main-col:first-child {
+  width: 34%;
+}
 
 /*# sourceMappingURL=style.css.map */
