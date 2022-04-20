@@ -1,5 +1,11 @@
 .section {
     &-listing {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #dedede;
+        border-radius: 8px;
+        width: 100%;
         &-top {
             display: flex;
             justify-content: space-between;
@@ -20,7 +26,101 @@
         }
         &-button-link {
             background-color: #f1f1f1 !important;
-            color: #333333;
+            margin-right: 10px;
+            color: #333333 !important;
         }
+        &-button-link.active {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        &-list {
+            padding-left: 0;
+        }
+        &-item {
+            display: flex;
+            padding: 15px 0;
+
+            margin: 0;
+            border-top: 1px solid #ddd;
+            &-img {
+                width: 170px;
+                height: 160px;
+                object-fit: cover;
+                display: block;
+                border-radius: 5px;
+            }
+        }
+        &-info {
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &-title {
+                font-size: 16px;
+                color: #055699;
+                font-weight: bold;
+            }
+            &-meta {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                p {
+                    padding-bottom: 0;
+                    margin-bottom: 0;
+                }
+            }
+            &-price {
+                font-size: 1.2rem;
+                font-weight: 700;
+                color: #16c784;
+                margin-right: 20px;
+            }
+            &-acreage {
+                margin-right: 20px;
+                color: #333;
+            }
+            &-location {
+                text-decoration: none;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                display: block;
+                width: 100%;
+
+                max-width: 250px;
+                color: #333;
+            }
+            &-time {
+                display: block;
+                margin-left: auto;
+            }
+            &-desc {
+                margin: 10px 0 0;
+                color: #8a8d91;
+                line-height: 1.5;
+            }
+            &-author {
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                &-avt {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    object-fit: cover;
+                }
+                &-name {
+                    padding: 0;
+                    margin: 0 0 0 20px;
+                    color: #8a8d91;
+                }
+            }
+        }
+    }
+    &-navigation {
+        display: block;
+
+        margin: 20px 0 50px;
+        padding: 0;
+        text-align: center;
     }
 }

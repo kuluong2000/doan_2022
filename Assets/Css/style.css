@@ -3,6 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1;
+  background-color: #f5f5f5;
 }
 
 .btn {
@@ -224,6 +225,14 @@ body {
   color: orange;
 }
 
+.section-listing {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  width: 100%;
+}
 .section-listing-top {
   display: flex;
   justify-content: space-between;
@@ -244,7 +253,98 @@ body {
 }
 .section-listing-button-link {
   background-color: #f1f1f1 !important;
-  color: #333333;
+  margin-right: 10px;
+  color: #333333 !important;
+}
+.section-listing-button-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.section-listing-list {
+  padding-left: 0;
+}
+.section-listing-item {
+  display: flex;
+  padding: 15px 0;
+  margin: 0;
+  border-top: 1px solid #ddd;
+}
+.section-listing-item-img {
+  width: 170px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  border-radius: 5px;
+}
+.section-listing-info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-listing-info-title {
+  font-size: 16px;
+  color: #055699;
+  font-weight: bold;
+}
+.section-listing-info-meta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.section-listing-info-meta p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.section-listing-info-price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #16c784;
+  margin-right: 20px;
+}
+.section-listing-info-acreage {
+  margin-right: 20px;
+  color: #333;
+}
+.section-listing-info-location {
+  text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  color: #333;
+}
+.section-listing-info-time {
+  display: block;
+  margin-left: auto;
+}
+.section-listing-info-desc {
+  margin: 10px 0 0;
+  color: #8a8d91;
+  line-height: 1.5;
+}
+.section-listing-info-author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.section-listing-info-author-avt {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.section-listing-info-author-name {
+  padding: 0;
+  margin: 0 0 0 20px;
+  color: #8a8d91;
+}
+.section-navigation {
+  display: block;
+  margin: 20px 0 50px;
+  padding: 0;
+  text-align: center;
 }
 
 .footer-top {
