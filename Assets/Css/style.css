@@ -346,6 +346,60 @@ body {
   padding: 0;
   text-align: center;
 }
+.section-sublink {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+}
+.section-sublink-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.section-sublink-price, .section-sublink-acreage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+.section-sublink-item {
+  width: 50%;
+  list-style-type: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dashed #eee;
+}
+.section-sublink-item::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../image/chevron-right.svg) center no-repeat;
+  background-size: contain;
+  opacity: 0.3;
+}
+.section-sublink-link {
+  text-decoration: none;
+  padding: 5px 0;
+  display: inline-flex;
+  align-items: center;
+  color: #333;
+  width: 100%;
+  line-height: 1.4;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 10px;
+}
+.section-sublink-link:hover {
+  color: orange;
+}
 
 .footer-top {
   border-bottom: 1px solid #ddd;

@@ -124,4 +124,62 @@
         padding: 0;
         text-align: center;
     }
+    &-sublink {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #dedede;
+        border-radius: 8px;
+        &-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        &-price,
+        &-acreage {
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding-left: 0;
+
+            flex-wrap: wrap;
+        }
+        &-item {
+            width: 50%;
+            list-style-type: none;
+            position: relative;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px dashed #eee;
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                background: url(../image/chevron-right.svg) center no-repeat;
+                background-size: contain;
+                // position: absolute;
+                // left: 0;
+                opacity: 0.3;
+            }
+        }
+        &-link {
+            text-decoration: none;
+            padding: 5px 0;
+            display: inline-flex;
+            align-items: center;
+            color: #333;
+            width: 100%;
+            line-height: 1.4;
+            font-size: 1rem;
+            font-weight: 400;
+            padding-left: 10px;
+            &:hover {
+                color: orange;
+            }
+        }
+    }
 }
