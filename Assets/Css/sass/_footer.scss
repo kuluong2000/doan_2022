@@ -1,6 +1,10 @@
 .footer {
+    background-color: #fff;
+    margin-top: 10px;
     &-top {
+        margin-bottom: 20px;
         border-bottom: 1px solid #ddd;
+        padding-top: 20px;
         &-list {
             display: flex;
             padding: 0;
