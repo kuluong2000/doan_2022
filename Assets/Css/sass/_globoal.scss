@@ -13,6 +13,23 @@ body {
     display: flex;
     align-items: center;
 }
+.btn--secondary {
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 100%;
+    background: #16c784;
+    border-color: #16c784;
+    background: linear-gradient(to right, #16c784, #16c784);
+    margin-bottom: 10px;
+}
+.btn--outline {
+    width: 100%;
+    background: #fff;
+    border-color: #333;
+    background: linear-gradient(to right, #fff, #fff);
+    color: #333;
+    margin-bottom: 5px;
+}
 .btn-iconAdd {
     background: url("../image/add-white.svg") no-repeat center/contain;
     width: 16px;
